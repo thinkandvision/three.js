@@ -1,6 +1,6 @@
 {
   "name": "@tdegroup/three",
-  "version": "0.108.0-ts5",
+  "version": "0.108.0-ts6",
   "description": "JavaScript 3D library",
   "main": "build/three.js",
   "repository": "mrdoob/three.js",
