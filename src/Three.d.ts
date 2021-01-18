@@ -177,4 +177,9 @@ export * from './renderers/webvr/WebVRManager';
 export * from './constants';
 export * from './Three.Legacy';
 
+/* exporting examples because we use them in production code! (don't ask why) */
+export * from '../examples/jsm/loaders/OBJLoader';
+export * from '../examples/jsm/loaders/GLTFLoader';
+export * from '../examples/jsm/controls/OrbitControls';
+
 export as namespace THREE;

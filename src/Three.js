@@ -156,5 +156,11 @@ export { Curve } from './extras/core/Curve.js';
 export { ImageUtils } from './extras/ImageUtils.js';
 export { ShapeUtils } from './extras/ShapeUtils.js';
 export { WebGLUtils } from './renderers/webgl/WebGLUtils.js';
+
+/* exporting examples because we use them in production code! (don't ask why) */
+export { OBJLoader } from '../examples/jsm/loaders/OBJLoader.js';
+export { GLTFLoader } from '../examples/jsm/loaders/GLTFLoader.js';
+export { OrbitControls } from '../examples/jsm/controls/OrbitControls.js';
+
 export * from './constants.js';
 export * from './Three.Legacy.js';
